@@ -1,3 +1,3 @@
 # JInterview-demo
 
-[Maven plugin](./xiang-maven-plugin/README.md)
+[Maven plugin](./xiang-maven-plugin)

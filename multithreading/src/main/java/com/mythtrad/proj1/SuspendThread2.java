@@ -8,6 +8,7 @@ package com.mythtrad.proj1;
 public class SuspendThread2 {
     private String username = "1";
     private String password = "11";
+
     public void setValue(String u, String p) {
         this.username = u;
         if (Thread.currentThread().getName().equals("a")) {

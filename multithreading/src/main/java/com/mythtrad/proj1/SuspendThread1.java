@@ -6,7 +6,7 @@ package com.mythtrad.proj1;
  * @Desc：suspend()暂停线程， resume()恢复线程执行
  */
 public class SuspendThread1 extends Thread {
-     private long i = 0;
+    private long i = 0;
 
     public long getI() {
         return i;
@@ -22,7 +22,6 @@ public class SuspendThread1 extends Thread {
             i++;
         }
     }
-
 
     public static void main(String[] args) throws InterruptedException {
         SuspendThread1 suspendThread1 = new SuspendThread1();

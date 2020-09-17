@@ -23,7 +23,7 @@ public class StopThread2 extends Thread {
         try {
             StopThread2 stopThread2 = new StopThread2();
             stopThread2.start();
-            Thread.sleep(2000);
+            Thread.sleep(200);
             stopThread2.interrupt();
         } catch (Exception e) {
             System.out.println("main catch");

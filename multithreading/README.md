@@ -19,3 +19,18 @@
 - 非线程安全时如何出现的
 - 关键字volatile的主要作用
 - 关键字volatile与synchronized的区别及使用情况
+
+## proj3
+主要介绍线程间的协作/通信
+
+本章应该掌握如下技术点：
+- 使用wait/notify实现线程间的通信
+- 生产者/消费者模式的实现
+- 方法join的使用
+- ThreadLocal类的使用
+
+## proj4
+介绍使用Java5中Lock对象也能实现同步的效果，而且在使用上更加方便。
+本章着重掌握如下知识点：
+- ReentrantLock类的使用
+- ReentrantReadWriteLock类的使用

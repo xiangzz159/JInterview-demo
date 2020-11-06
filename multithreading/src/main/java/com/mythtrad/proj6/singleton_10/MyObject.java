@@ -32,7 +32,7 @@ public class MyObject {
             return connection;
         }
     }
-    public Connection getConnection() {
+    public static Connection getConnection() {
         return MyEnumSingleton.connectionFactory.getConnection();
     }
 }

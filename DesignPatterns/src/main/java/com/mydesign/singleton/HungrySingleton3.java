@@ -1,4 +1,4 @@
-package com.my.design.singleton;
+package com.mydesign.singleton;
 
 import java.io.*;
 import java.lang.reflect.Method;
@@ -7,7 +7,6 @@ import java.lang.reflect.Method;
  * @Author：Yerik Xiang
  * @Date：2020/11/8 14:41
  * @Desc：克隆破坏单例
- * 结果发现，经过序列化和反序列化之后拿到的对象是两个，这违背了单例模式的初衷。
  */
 public class HungrySingleton3 implements Serializable {
     private final static HungrySingleton3 hungrySingleton = new HungrySingleton3();

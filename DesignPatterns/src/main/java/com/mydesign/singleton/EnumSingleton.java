@@ -1,4 +1,4 @@
-package com.my.design.singleton;
+package com.mydesign.singleton;
 
 /**
  * @Author：Yerik Xiang

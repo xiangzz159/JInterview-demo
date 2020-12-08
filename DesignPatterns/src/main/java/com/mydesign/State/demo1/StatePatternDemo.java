@@ -1,0 +1,22 @@
+package com.mydesign.State.demo1;
+
+/**
+ * @Author：Yerik Xiang
+ * @Date：2020/12/8 15:50
+ * @Desc：
+ */
+public class StatePatternDemo {
+    public static void main(String[] args) {
+        Context context = new Context();
+
+        StartState startState = new StartState();
+        startState.doAction(context);
+
+        System.out.println(context.getState().toString());
+
+        StopState stopState = new StopState();
+        stopState.doAction(context);
+
+        System.out.println(context.getState().toString());
+    }
+}

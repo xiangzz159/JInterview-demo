@@ -1,5 +1,4 @@
-package main.java.com.mydesign.Builder.demo3;
-
+package com.mydesign.Builder.demo3;
 /**
  * @Author：Yerik Xiang
  * @Date：2020/12/9 22:41

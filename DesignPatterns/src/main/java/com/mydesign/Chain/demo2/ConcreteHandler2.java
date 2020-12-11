@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Chain.demo2;
+package com.mydesign.Chain.demo2;
 
 /**
  * @Author：Yerik Xiang

@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Chain.demo3;
+package com.mydesign.Chain.demo3;
 
 /**
  * @Author：Yerik Xiang
@@ -6,6 +6,7 @@ package main.java.com.mydesign.Chain.demo3;
  * @Desc：
  */
 class DeanOfStudies extends Leader {
+    @Override
     public void handleRequest(int LeaveDays) {
         if (LeaveDays <= 20) {
             System.out.println("教务处长批准您请假" + LeaveDays + "天。");

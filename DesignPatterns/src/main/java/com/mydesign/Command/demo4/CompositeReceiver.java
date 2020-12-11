@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Command.demo4;
+package com.mydesign.Command.demo4;
 
 /**
  * @Author：Yerik Xiang

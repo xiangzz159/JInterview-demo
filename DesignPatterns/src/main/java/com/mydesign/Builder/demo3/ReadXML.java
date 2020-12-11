@@ -1,5 +1,4 @@
-package main.java.com.mydesign.Builder.demo3;
-
+package com.mydesign.Builder.demo3;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
@@ -22,7 +21,7 @@ public class ReadXML {
             doc = builder.parse(new File("DesignPatterns/src/main/java/com/mydesign/Builder/demo3/config.xml"));
             NodeList nl = doc.getElementsByTagName("className");
             Node classNode = nl.item(0).getFirstChild();
-            String cName = "main.java.com.mydesign.Builder.demo3." + classNode.getNodeValue();
+            String cName = "com.mydesign.Builder.demo3." + classNode.getNodeValue();
             System.out.println("新类名：" + cName);
             Class<?> c = Class.forName(cName);
             Object obj = c.newInstance();

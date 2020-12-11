@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Command.demo4;
+package com.mydesign.Command.demo4;
 
 import java.util.ArrayList;
 
@@ -18,6 +18,7 @@ public class CompositeInvoker implements AbstractCommand {
     public AbstractCommand getChild(int i) {
         return children.get(i);
     }
+    @Override
     public void execute() {
         for (Object obj : children) {
             ((AbstractCommand) obj).execute();

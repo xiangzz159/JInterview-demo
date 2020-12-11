@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Command.demo4;
+package com.mydesign.Command.demo4;
 
 /**
  * @Author：Yerik Xiang
@@ -10,6 +10,7 @@ public class ConcreteCommand1 implements AbstractCommand {
     ConcreteCommand1() {
         receiver = new CompositeReceiver();
     }
+    @Override
     public void execute() {
         receiver.action1();
     }

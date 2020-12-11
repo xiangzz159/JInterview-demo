@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Command.demo3;
+package com.mydesign.Command.demo3;
 
 /**
  * @Author：Yerik Xiang
@@ -10,6 +10,7 @@ public class HeFen implements Breakfast {
     HeFen() {
         receiver = new HeFenChef();
     }
+    @Override
     public void cooking() {
         receiver.cooking();
     }

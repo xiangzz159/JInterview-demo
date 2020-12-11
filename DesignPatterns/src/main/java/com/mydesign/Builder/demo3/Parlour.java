@@ -1,5 +1,4 @@
-package main.java.com.mydesign.Builder.demo3;
-
+package com.mydesign.Builder.demo3;
 import javax.swing.*;
 import java.awt.*;
 

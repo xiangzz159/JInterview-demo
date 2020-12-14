@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Facade.demo2;
+package com.mydesign.Facade.demo2;
 
 /**
  * @Author：Yerik Xiang

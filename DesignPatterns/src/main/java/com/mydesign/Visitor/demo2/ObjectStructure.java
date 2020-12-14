@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Visitor.demo2;
+package com.mydesign.Visitor.demo2;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Bridger.demo1;
+package com.mydesign.Bridger.demo1;
 
 /**
  * @Author：Yerik Xiang

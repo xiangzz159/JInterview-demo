@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Proxy.demo2;
+package com.mydesign.Proxy.demo2;
 
 /**
  * @Author：Yerik Xiang

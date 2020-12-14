@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Decorator.demo1;
+package com.mydesign.Decorator.demo1;
 
 /**
  * @Author：Yerik Xiang

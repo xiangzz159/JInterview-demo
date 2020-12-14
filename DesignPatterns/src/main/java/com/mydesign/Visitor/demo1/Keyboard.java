@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Visitor.demo1;
+package com.mydesign.Visitor.demo1;
 
 /**
  * @Author：Yerik Xiang

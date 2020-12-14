@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Iterator.demo1;
+package com.mydesign.Iterator.demo1;
 
 /**
  * @Author：Yerik Xiang

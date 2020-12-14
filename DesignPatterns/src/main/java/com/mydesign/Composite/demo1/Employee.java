@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Composite.demo1;
+package com.mydesign.Composite.demo1;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Adapter.demo2;
+package com.mydesign.Adapter.demo2;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -21,10 +21,10 @@ public class ReadXML {
             DocumentBuilderFactory dFactory=DocumentBuilderFactory.newInstance();
             DocumentBuilder builder=dFactory.newDocumentBuilder();
             Document doc;
-            doc=builder.parse(new File("DesignPatterns/src/main/java/com/mydesign/Adapter/demo2/config.xml"));
+            doc=builder.parse(new File("DesignPatterns/src/com/mydesign/Adapter/demo2/config.xml"));
             NodeList nl=doc.getElementsByTagName("className");
             Node classNode=nl.item(0).getFirstChild();
-            String cName="main.java.com.mydesign.Adapter.demo2."+classNode.getNodeValue();
+            String cName="com.mydesign.Adapter.demo2."+classNode.getNodeValue();
             Class<?> c=Class.forName(cName);
             Object obj=c.newInstance();
             return obj;

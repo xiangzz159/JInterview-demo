@@ -18,7 +18,7 @@ public class ReadXML {
             DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = dFactory.newDocumentBuilder();
             Document doc;
-            doc = builder.parse(new File("DesignPatterns/src/main/java/com/mydesign/Builder/demo3/config.xml"));
+            doc = builder.parse(new File("DesignPatterns/src/com/mydesign/Builder/demo3/config.xml"));
             NodeList nl = doc.getElementsByTagName("className");
             Node classNode = nl.item(0).getFirstChild();
             String cName = "com.mydesign.Builder.demo3." + classNode.getNodeValue();

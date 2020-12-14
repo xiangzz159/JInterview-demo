@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Mediator.demo2;
+package com.mydesign.Mediator.demo2;
 
 /**
  * @Author：Yerik Xiang

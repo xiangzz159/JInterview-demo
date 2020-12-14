@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Composite.demo2;
+package com.mydesign.Composite.demo2;
 
 /**
  * @Author：Yerik Xiang

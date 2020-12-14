@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Mediator.demo1;
+package com.mydesign.Mediator.demo1;
 
 import java.util.Date;
 

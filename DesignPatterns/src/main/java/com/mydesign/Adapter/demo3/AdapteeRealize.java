@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Adapter.demo3;
+package com.mydesign.Adapter.demo3;
 
 /**
  * @Author：Yerik Xiang

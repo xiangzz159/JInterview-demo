@@ -1,4 +1,4 @@
-package main.java.com.mydesign.Mediator.demo2;
+package com.mydesign.Mediator.demo2;
 
 import java.util.ArrayList;
 import java.util.List;

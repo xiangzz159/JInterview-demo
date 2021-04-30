@@ -13,7 +13,6 @@ public class RealImage implements Image {
         loadFromDisk(fileName);
     }
 
-    @Override
     public void display() {
         System.out.println("Displaying " + fileName);
     }

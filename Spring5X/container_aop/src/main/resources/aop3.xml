@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="userService" class="com.stydy.aop1.UserServiceImpl"/>
+    <bean id="log" class="com.stydy.aop1.BeforeLog"/>
+    <bean id="afterLog" class="com.stydy.aop1.AfterLog"/>
+
+<!--    方式三：注解-->
+    <bean id="annotationPointCut" class="com.stydy.aop3.AnnotaionPointCut"/>
+<!--    开启注解支持-->
+    <aop:aspectj-autoproxy/>
+
+</beans>

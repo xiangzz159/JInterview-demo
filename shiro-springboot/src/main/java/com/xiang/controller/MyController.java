@@ -17,4 +17,22 @@ public class MyController {
         model.addAttribute("msg", "Hello, Shiro");
         return "index";
     }
+
+    @RequestMapping("/user/add")
+    public String add() {
+        System.out.println("user/add");
+        return "user/add";
+    }
+
+    @RequestMapping("/user/update")
+    public String update() {
+        System.out.println("user/update");
+        return "user/update";
+    }
+
+    @RequestMapping("toLogin")
+    public String toLogin() {
+        return "login";
+    }
+
 }

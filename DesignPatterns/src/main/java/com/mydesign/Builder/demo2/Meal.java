@@ -9,7 +9,7 @@ import java.util.List;
  * @Desc：
  */
 public class Meal {
-    private List<Item> items = new ArrayList<>();
+    private List<Item> items = new ArrayList<Item>();
 
     public void addItem(Item item) {
         items.add(item);

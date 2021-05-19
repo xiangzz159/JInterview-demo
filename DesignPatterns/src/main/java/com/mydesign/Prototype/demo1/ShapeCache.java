@@ -8,7 +8,7 @@ import java.util.Hashtable;
  * @Desc：
  */
 public class ShapeCache {
-    private static Hashtable<String, Shape> shapeMap = new Hashtable<>();
+    private static Hashtable<String, Shape> shapeMap = new Hashtable<String, Shape>();
 
     public static Shape getShape(String shapeId) {
         Shape cacheShape = shapeMap.get(shapeId);

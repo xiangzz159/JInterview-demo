@@ -9,7 +9,7 @@ import java.util.List;
  * @Desc：
  */
 public abstract class Subject {
-    protected List<Observer> observers = new ArrayList<>();
+    protected List<Observer> observers = new ArrayList<Observer>();
     //增加观察者方法
     public void add(Observer observer) {
         observers.add(observer);

@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * 另外，代码中，如果N个线程同时执行到 singleton = new Singleton();的时候，会有大量对象被创建，可能导致内存溢出。
  */
 public class CasSingleton {
-    private static final AtomicReference<CasSingleton> INSTANCE = new AtomicReference<>();
+    private static final AtomicReference<CasSingleton> INSTANCE = new AtomicReference<CasSingleton>();
 
     public CasSingleton() {
     }

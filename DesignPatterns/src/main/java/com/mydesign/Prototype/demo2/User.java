@@ -12,7 +12,7 @@ public class User {
     public static void main(String[] args) throws CloneNotSupportedException {
         String fileName = "fileName";
         int fileId = 1;
-        Map<String, Double> fileScore = new HashMap<>();
+        Map<String, Double> fileScore = new HashMap<String, Double>();
         fileScore.put("张三", 2.12);
 
         FileConcreatePrototype fileConcreatePrototype = new FileConcreatePrototype(fileId, fileName, fileScore);

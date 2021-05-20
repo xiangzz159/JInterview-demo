@@ -34,10 +34,15 @@ public class ShiroConfig {
          * role:拥有某个角色权限才能访问
          */
         Map<String, String> filterMap = new LinkedHashMap<>();
-        filterMap.put("/user/add", "authc");
-        filterMap.put("/user/update", "authc");
+//        filterMap.put("/user/add", "authc");
+//        filterMap.put("/user/update", "authc");
+        // 授权
+        filterMap.put("/user/add", "perms[user:add]");
+        // 拦截
+        filterMap.put("/user/*", "authc");
         bean.setFilterChainDefinitionMap(filterMap);
         bean.setLoginUrl("/toLogin");
+        bean.setUnauthorizedUrl("/unauth");
         return bean;
     }
 

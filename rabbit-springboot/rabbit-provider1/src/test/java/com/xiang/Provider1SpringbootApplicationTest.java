@@ -28,4 +28,14 @@ public class Provider1SpringbootApplicationTest {
 		orderService.makeOrderTopic("1", "1", 12);
 	}
 
+	@Test
+	void ttlLoads() {
+		orderService.makeOrderTtl("1", "1", 12);
+	}
+
+	@Test
+	void ttlMessageLoads() {
+		orderService.makeOrderTtlMessage("1", "1", 12);
+	}
+
 }

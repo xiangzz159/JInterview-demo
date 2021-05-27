@@ -12,14 +12,4 @@
     <groupId>com.xiang</groupId>
     <artifactId>rabbit-provider1</artifactId>
 
-    <dependencies>
-        <!-- java原生依赖 -->
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.10.0</version>
-        </dependency>
-    </dependencies>
-
-
 </project>

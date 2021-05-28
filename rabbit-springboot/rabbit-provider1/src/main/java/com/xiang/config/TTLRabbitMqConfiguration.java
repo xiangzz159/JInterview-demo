@@ -23,6 +23,11 @@ public class TTLRabbitMqConfiguration {
         Map<String, Object> args = new HashMap<>();
         // 设置过期时间
         args.put("x-message-ttl", 5000);
+
+        // 过期消息关联死信队列交换机名
+        args.put("x-dead-letter-exchange", "dead_direct_exchange");
+        // 如果设置了路由key，需要添加
+        args.put("x-dead-letter-routing-key", "dead");
         return new Queue("ttl.direct.queue", true, false, false, args);
     }
     @Bean

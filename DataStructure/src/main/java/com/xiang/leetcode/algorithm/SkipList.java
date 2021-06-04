@@ -1,4 +1,4 @@
-package com.xiang;
+package com.xiang.leetcode.algorithm;
 
 import java.util.Random;
 

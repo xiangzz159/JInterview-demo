@@ -1,4 +1,4 @@
-package com.xiang.leetcode.mid;
+package com.xiang.leetcode.leetcode;
 
 import java.util.Arrays;
 

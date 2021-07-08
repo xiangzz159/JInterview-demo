@@ -10,7 +10,10 @@ import org.apache.dubbo.rpc.Protocol;
  */
 public class App {
     public static void main(String[] args) {
-        Protocol protocol = ExtensionLoader.getExtensionLoader(Protocol.class).getExtension("myProtocol");
-        System.out.println(protocol.getDefaultPort());
+        Protocol myProtocol = ExtensionLoader.getExtensionLoader(Protocol.class).getExtension("myProtocol");
+        System.out.println(myProtocol.getClass());
+        System.out.println(myProtocol.getDefaultPort());
+        Protocol bobProtocol = ExtensionLoader.getExtensionLoader(Protocol.class).getExtension("bobProtocol");
+        System.out.println(bobProtocol.getDefaultPort());
     }
 }
